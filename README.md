@@ -1,16 +1,20 @@
-# home_todolist
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Only at home
+ - Git 초기화 및 원격 레포지토리 연결
+   - git init
+ - 원격 레포지토리 추가
+   - git remote add origin <레포지토리 URL>
+ - 파일 스테이징 및 커밋
+   - git add .
+   - git commit -m "commit message"
+   - (브랜치 확인)
+   - git branch
+   - git branch -M main
+   - (파일 푸시)
+   - git push -u origin main
+   - ('! [rejected] main -> main (fetch first)'오류 발생 시)
+   - 1.. 원격 변경 사항 가져오기
+   - git pull origin main
+   - (병합 완료 후 푸시)
+   - git push origin main
+   - 2.. 특별한 상황. 변경할 레포지토리 덮어쓸 시
+   - git push origin main --force
